@@ -2061,6 +2061,7 @@ backup_thread_func(void *cont)
 		as_error ae;
 		as_status status;
 
+		// test
 		as_scan_set_concurrent(&ae, true);
 
 		if (bjc.conf->no_records) {
